@@ -1,5 +1,10 @@
 # EliHaroldGuerrero-FrontEndDev-Exam
 
+To run app:
+- Go to project directory
+- Type and enter 'npm start' in terminal
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
