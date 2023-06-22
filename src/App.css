@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
+.mainContainer{
+  margin:2%;
+  width:1000px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.buttonRow{
+  margin-bottom: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pubButton, .modalPub:hover{
+  border:1px solid #33C6EA;
+  background-color: #E3FAFF;
+  color: #33C6EA;
+  font-weight: bold;
+  margin-right: 5px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+.modalPub, .pubButton:hover{
+  border:1px solid #33C6EA;
+  background-color: #13C1E9;
+  color:white;
+  margin-right: 5px;
+  font-weight: bold;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.modalDel, .delButton:hover{
+  background-color: #F13434;
+  border: 1px solid #F13434;
+  color:white;
+  margin-right: 5px;
+  font-weight: bold;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.delButton, .modalDel:hover{
+  border:1px solid #F33E3E;
+  background-color: #FFF1F1;
+  color: #F33E3E;
+  font-weight: bold;
+  margin-right: 5px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hashButton{
+  border:1px solid #6CC08C;
+  background-color: #EBFAF5;
+  color: #6CC08C;
+  font-weight: bold;
+  margin-right: 5px;  
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hashButton:hover{
+  font-weight: bold;
+  margin-right: 5px;  
+  border:1px solid #6CC08C;
+  background-color: #6CC08C;;
   color: white;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 
-.App-link {
-  color: #61dafb;
+.header{
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.searchBar{
+  float: right;
+  width: 300px;
+}
+
+.card{
+  border-radius: 6px;
+  background-color: #F3F4F6;
+  padding: 15px;
+  border: 1px solid #F1F2F4;
+  display: flex;
+  margin:5px;
+}
+
+.hashtags{
+  text-align: right;
+}
+
+.articleName{
+  font-weight: bold;
+}
+
+.readFull{
+  color: #3C82F6;
+  cursor: pointer;
+}
+
+.modalSubHead{
+  margin-left:50px;
+}
+
+.author, .date{
+  color:#6B7280;
+  font-weight: bold;
+}
+
+.content{
+  color:#6B7280;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 300px;
+}
+
+.modalBody{
+  border: 2px dashed black;
+  padding: 10px;
+  margin:0px 50px 10px 50px;
+}
+
+.modaal{
+  width: 600px;
+  min-width: 600px;
+}
+
+.authDateModal{
+  margin: 10px 50px 20px;
+  color:#6B7280;
+  font-weight: bold;
+}
+
+.modal-header{
+  margin: 20px 30px 0px;
+  font-weight: bold;
+  border:none;
+}
+.modal-footer{
+  border:none;
+}
+
+.icons{
+  color: green;
 }
